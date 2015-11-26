@@ -508,7 +508,7 @@
 				INFOPLIST_FILE = MapNearbyLocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zqgf.sch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -524,7 +524,7 @@
 				INFOPLIST_FILE = MapNearbyLocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zqgf.sch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -548,6 +548,7 @@
 				78A2E8331C0708960061AAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

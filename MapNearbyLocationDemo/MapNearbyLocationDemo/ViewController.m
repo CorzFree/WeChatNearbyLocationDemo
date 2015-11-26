@@ -11,6 +11,7 @@
 #import "SelectLocationCell.h"
 
 #define SelectLocation_Not_Show @"不显示位置"
+const static NSString *ApiKey = @"输入高德申请的key";
 
 @interface ViewController ()<AMapSearchDelegate,UITableViewDelegate,UITableViewDataSource>
 
@@ -187,7 +188,7 @@
 - (AMapSearchAPI *)search{
     if (!_search) {
         _search = ({
-            [AMapSearchServices sharedServices].apiKey = @"fe11dd443681584527c0e65372758baa";
+            [AMapSearchServices sharedServices].apiKey = (NSString *)ApiKey;
             AMapSearchAPI *api = [[AMapSearchAPI alloc] init];
             api.delegate       = self;
             api;
