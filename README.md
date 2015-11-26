@@ -1,0 +1,2 @@
+# WeChatNearbyLocationDemo
+利用高德地图poi检索，模仿微信发朋友圈选择附近位置
