@@ -39,3 +39,15 @@
 
 
 以上是获取到数据的回调，在此可以获取周边信息.
+
+
+使用配置
+----
+1.填入自己的key
+![enter image description here](https://github.com/CorzFree/WeChatNearbyLocationDemo/blob/master/use.png?raw=true)
+
+2.填写Bundle Indentifie （**需与高德申请的安全码一致**)
+![enter image description here](https://github.com/CorzFree/WeChatNearbyLocationDemo/blob/master/info.png?raw=true)
+
+3.配置-ObJC,若不配置，可以运行，会抛出**［AMapGeoPoint coordinateString］错误**
+![enter image description here](https://github.com/CorzFree/WeChatNearbyLocationDemo/blob/master/config.png?raw=true)
